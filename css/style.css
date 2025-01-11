@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, Helvetica, sans-serif;
+    background-color: #EFEFEF;
+}
+    
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+    background-color:rgb(82, 82, 82);
+    padding: .3em 1em;
+}
+
+.active {
+    background-color: rgb(0, 0, 0)
+}
+
+a:hover {
+    background-color: rgb(0, 0, 0)
+}
+
+header {
+    background-color: rgb(55, 151, 214);
+}
+
+footer {
+    background-color: rgb(230, 214, 34);
+    height: 82.9vh;
+    text-align: center;
+}
+
+.my-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.wrapper-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profile-sec {
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #3B4049;
+}
+
+.avatar {
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0 0 0 6px hsla(0,0%,100%,0.04)
+}
+
+.description {
+    flex: 1;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.description h1 {
+    font-size: 2.5em;
+}
+
+.about-me-btn {
+    text-decoration: none;
+    color: #D1D1D1;
+    font-size: .8em;
+}
+
+
+.about-me-btn:hover {
+    border-bottom: 1px solid #D1D1D1
+}
+.form-sec {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-element-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(55, 151, 214);
+    padding: 5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-element-sec li {
+    margin-top: 2em;
+}
+
+.form-element-sec input {
+    font-size: 1em;
+}
+
+.form-cntrl-btn {
+    border: none;
+    padding: 7px 20px;
+    background-color:rgb(82, 82, 82);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.form-cntrl-btn:hover {
+    background-color: rgb(0, 0, 0)
+}
+
+.form-cntrl-btn:nth-child(2){
+    margin-left: 10px;
+}
