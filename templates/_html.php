@@ -13,9 +13,7 @@
                     $pageData->navigation
                 </header>
                 <main>
-                    <section class='wrapper-container'>
-                            $pageData->content
-                    </section>
+                    $pageData->content
                 </main>
                 <footer>
                     <p class='my-name'>Keys</p>

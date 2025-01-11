@@ -54,7 +54,7 @@ footer {
     font-weight: bold;
 }
 
-.wrapper-container {
+.main-container {
     width: 80%;
     margin: 0 auto;
 }
@@ -137,4 +137,11 @@ footer {
 
 .form-cntrl-btn:nth-child(2){
     margin-left: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

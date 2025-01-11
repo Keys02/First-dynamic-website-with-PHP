@@ -10,5 +10,10 @@
         </ul>
     </nav>
     ";
-    $page = "<h2>This is the the projects page</2>";
+    $page = "
+    <section class='projects'>
+        <h2>Click to see my projects on GitHub 👇👇<h2>
+        <a href='https://github.com/Keys02'>Click</a>
+    </section>
+    ";
 ?>
